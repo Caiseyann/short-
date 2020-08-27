@@ -6,6 +6,7 @@ import { GifComponent } from './gif/gif.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchComponent } from './search/search.component';
+import { StickerComponent } from './sticker/sticker.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SearchComponent } from './search/search.component';
     GifComponent,
     NavbarComponent,
     NotFoundComponent,
-    SearchComponent
+    SearchComponent,
+    StickerComponent
   ],
   imports: [
     BrowserModule
