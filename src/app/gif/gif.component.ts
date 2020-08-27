@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpServiceService } from '../service/http-service.service'
 import { Giphys } from '../giphys';
+// import { error } from 'util';
 
 @Component({
   selector: 'app-gif',
@@ -23,6 +24,12 @@ gifs:Giphys [];
         console.log('error')
       }
      )
+    // function success() {
+    // this.gifs = this.httpService.gifys;
+    // }
+    // function fail(){
+    //   console.log('error')
+    // }
   }
  
   

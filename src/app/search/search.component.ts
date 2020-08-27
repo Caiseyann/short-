@@ -12,6 +12,7 @@ searchIt:string;
   constructor() { }
 
   search(){
+    // console.log(this.searchIt);
     this.emitSearch.emit(this.searchIt);
 
   }

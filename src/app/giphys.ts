@@ -1,6 +1,5 @@
 export class Giphys {
-    constructor(public url:string){
-  
-    }
+  constructor(public url:string){
+
   }
-  
+}

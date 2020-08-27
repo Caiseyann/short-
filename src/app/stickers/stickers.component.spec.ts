@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StickerComponent } from './sticker.component';
+import { StickersComponent } from './stickers.component';
 
-describe('StickerComponent', () => {
-  let component: StickerComponent;
-  let fixture: ComponentFixture<StickerComponent>;
+describe('StickersComponent', () => {
+  let component: StickersComponent;
+  let fixture: ComponentFixture<StickersComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ StickerComponent ]
+      declarations: [ StickersComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StickerComponent);
+    fixture = TestBed.createComponent(StickersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

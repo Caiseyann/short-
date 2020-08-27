@@ -8,7 +8,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 const routes: Routes = [
   {path:"home", component:GifComponent},
   {path:"stickers", component:StickersComponent},
-  { path: '', redirectTo:"/home", pathMatch:"full"},
+  // { path: '', redirectTo:"/home", pathMatch:"full"},
   {path:"**",component:NotFoundComponent},
 
 ];
